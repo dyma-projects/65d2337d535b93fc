@@ -10,7 +10,6 @@ export class UserServiceService {
   constructor() {}
 
   public addUser(username: string[]): void {
-    console.log(username);
     this.users$.next(username);
   }
 }
